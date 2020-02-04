@@ -8,6 +8,8 @@ Chat example app build with following stack:
   - Using Context for state management
 - socket.io
 
+Live demo: [https://react-node-chat-app-example.herokuapp.com/](https://react-node-chat-app-example.herokuapp.com/)
+
 ## Available Scripts
 
 ### `npm run dev`
