@@ -61,8 +61,8 @@ io.on('connection', socket => {
   });
 });
 
-const port = '3010';
-server.listen(process.env.PORT || port, () => debug(`listening on ${port}`));
+const port = process.env.PORT || '3010';
+server.listen(port, () => debug(`listening on ${port}`));
 
 function createMessage(user, message, channel = '#default') {
   return {
