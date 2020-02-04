@@ -1,1 +1,1 @@
-web: yarn --cwd client/ && npm start
+web: npm start

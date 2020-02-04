@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "yarn --cwd client/ build && npm run prod",
-    "prod": "node app.js",
+    "build": "yarn --cwd client/ && yarn --cwd client/ build",
+    "start": "node app.js",
     "dev": "DEBUG=chat:* nodemon --ignore 'client/' app.js"
   },
   "dependencies": {
